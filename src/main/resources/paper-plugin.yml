@@ -1,0 +1,4 @@
+name: StatsTop
+version: '${project.version}'
+main: me.youhavetrouble.statstop.StatsTop
+api-version: 1.20
