@@ -6,7 +6,7 @@ public final class StatsTop extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getServer().getCommandMap().register("top", new StatsTopCommand());
 
     }
 
